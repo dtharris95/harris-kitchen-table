@@ -1,0 +1,22 @@
+{
+  "name": "harris-kitchen-table",
+  "version": "1.0.0",
+  "description": "full stack app using yarn, pocketbase, and react",
+  "main": "index.js",
+  "repository": "git@github.com:dtharris95/harris-kitchen-table.git",
+  "author": "Damari Harris",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start:stack": "concurrently \"yarn workspace frontend start\" \"yarn workspace backend start\"",
+    "start:frontend": "yarn workspace frontend start",
+    "start:backend": "yarn workspace backend start"
+  }
+}

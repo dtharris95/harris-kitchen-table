@@ -1,0 +1,12 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "pocketbase backend",
+  "main": "index.js",
+  "author": "Damari Harris",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "./pocketbase serve"
+  }
+}
