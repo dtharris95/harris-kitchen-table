@@ -1,42 +1,345 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-container {
+  color: #252628;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  text-decoration: none;
+}
+
+.icons {
+  padding-top: 23px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.icons-services {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.row h2 {
+  justify-content: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.card-tab {
+  border-style: solid;
+  border-color: black;
+  padding: 35px;
+  box-shadow: 10px 10px;
+  width: 300px;
+  text-align: center;
+  font-size: 44px;
+  color: #252628;
+  background-color: #e06661;
+  font-weight: bold;
+}
+
+.page-subtitles {
+  margin: auto;
+  font-size: 40px;
+  font-weight: 400;
+  background-color: white;
+  border-style: double;
+  border-color: black;
+  width: 275px;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  background-color: #e1b668;
+}
+
+.page-subtitles-services {
+  margin: auto;
+  font-size: 30px;
+  font-weight: 400;
+  background-color: white;
+  border-style: double;
+  border-color: black;
+  width: 275px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1b668;
+}
+
+/* Home CSS */
+
+.story-container {
+  text-align: center;
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+  width: 60%;
+  box-shadow: 10px 10px;
+  padding-bottom: 50px;
+  margin-bottom: 25px;
+  padding-top: 25px;
+}
+
+.specials-container {
+  text-align: center;
+  margin: auto;
+  border-style: solid;
+  border-color: black;
+  width: 60%;
+  box-shadow: 10px 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 50px;
+}
+
+.home-text {
+  font-weight: bold;
+}
+
+.home-paragraph {
+  margin: auto;
+  width: 85%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bolder {
+  font-weight: bold;
+}
+
+.image-container {
+  width: 100%;
+  height: 500px;
+  justify-content: center;
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.lasagna-image {
+  width: 60%;
+}
+
+.home-image {
+  width: 45%;
+}
+
+.happy-hour-image {
+  width: 30%;
+  padding-bottom: 25px;
+}
+
+.carousel-container {
+  padding-top: 3%;
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+}
+
+/* Menu */
+
+.menu-container {
+  border-style: solid;
+  border-color: black;
+  margin: auto;
+  width: 60%;
+  margin-bottom: 50px;
+  box-shadow: 10px 10px;
+}
+
+.menu-list {
+  list-style: none;
+}
+
+.menu-flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.menu-title-container {
+  padding-top: 30px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.menu-rows-container {
+  margin-bottom: 50px;
+  width: 50%;
+  justify-content: center;
+  margin: auto;
+}
+
+.row {
+  margin: auto;
+  width: 75%;
+  content: '';
+  display: table;
+}
+
+.column, .drink-column {
+  width: 100%;
+
+}
+
+.appetizer-items, .entree-items, .side-items, .drink-items {
+  font-weight: bold;
+}
+
+.menu-images {
+  width: 24%;
+  padding-bottom: 10px;
+}
+
+hr {
+  width: 90%;
+}
+
+/* Services */
+
+.services-container {
+  display: grid;
+  margin: auto;
+  width: 60%;
+  padding-top: 25px;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 10px 10px;
+}
+
+/* Contact */
+
+.contact-container {
+  display: grid;
+  margin: auto;
+  width: 60%;
+  padding-top: 25px;
+  margin-bottom: 50px;
+  border-style: solid;
+  border-color: black;
+  box-shadow: 10px 10px;
+}
+
+.contact-text {
+  font-size: 20px;
+  display: grid;
+  justify-content: center;
+}
+
+.contact-row h2 {
+  justify-content: center;
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.contact-column-one h2, p {
+  color: black;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+iframe {
+  display: flex;
+  box-shadow: 10px 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .card-tab {
+    border-style: solid;
+    border-color: black;
+    padding: 35px;
+    box-shadow: 10px 10px;
+    width: 250px;
+    text-align: center;
+    font-size: 33px;
+    color: black;
+    font-weight: bold;
   }
-  to {
-    transform: rotate(360deg);
+
+  .main-container {
+    margin-bottom: 50px;
   }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  .page-subtitles {
+    width: 250px;
   }
-}
 
-.card {
-  padding: 2em;
-}
+  .story-container, .specials-container, .menu-container, .contact-container, .services-container {
+    width: 85%;
+  }
 
-.read-the-docs {
-  color: #888;
+  .carousel-container {
+    display: none;
+  }
+  
+
+  .column {
+    display: grid;
+    grid-template-columns: auto;
+    padding-top: auto;
+    padding: 15px;
+  }
+
+  .drink-column {
+    padding: 20px;
+  }
+
+  .map-container {
+    margin-bottom: 50px;
+    width: 65%;
+    margin: auto;
+  }
+
+  iframe {
+    height: 400px;
+  }
+
+  .lasagna-image {
+    width: 85%;
+  }
+
+  .home-image {
+    width: 85%;
+  }
+
+  .happy-hour-image {
+    width: 80%;
+  }
+
+  .cooking-image {
+    width: 85%;
+  }
+
+  .contact-text {
+    display: grid;
+    justify-content: center;
+  }
 }
