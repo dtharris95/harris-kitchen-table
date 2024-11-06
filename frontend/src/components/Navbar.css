@@ -11,10 +11,10 @@ body {
     font-weight: bold;
 }
 
-.flex-container {
+/* .flex-container {
     display: flex;
     flex-wrap: nowrap;
-}
+} */
 
 .navbar {
     overflow: hidden;

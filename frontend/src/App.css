@@ -300,7 +300,6 @@ iframe {
     display: none;
   }
   
-
   .column {
     display: grid;
     grid-template-columns: auto;
