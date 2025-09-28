@@ -156,3 +156,17 @@ body {
         /* margin-right: 10%; */
     }
 }
+
+@media screen and (max-width: 1279px) {
+    .navbar {
+        ul {
+            font-size: 15px;
+            margin-right: 7%;
+        }
+    }
+
+    .nav-title {
+        font-size: 27px;
+        margin-left: 1%;
+    }
+}

@@ -342,3 +342,13 @@ iframe {
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 1279px) {
+  .carousel-container {
+    width: 650px;
+  }
+
+  .story-container, .specials-container {
+    width: 75%;
+  }
+}
