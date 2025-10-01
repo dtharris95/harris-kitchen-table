@@ -4,3 +4,8 @@ node_modules
 backend/pb_data/
 backend/pocketbase*
 frontend/.env*
+backend/pb_data/data.db-shm
+backend/pb_data/data.db-wal
+backend/pb_data/logs.db
+backend/pb_data/logs.db-shm
+backend/pb_data/logs.db-wal
