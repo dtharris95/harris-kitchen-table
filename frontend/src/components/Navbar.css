@@ -11,11 +11,6 @@ body {
     font-weight: bold;
 }
 
-/* .flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-} */
-
 .navbar {
     overflow: hidden;
 
@@ -41,7 +36,6 @@ body {
 
 .navbar a {
     height: 100%;
-    /* width: 100%; */
     display: flex;
     align-items: center;
     padding: 10px;
@@ -93,7 +87,6 @@ body {
     }
 
     .navbar {
-        /* background-color: #C41230; */
         display: flex;
         flex-direction: column;
     }
@@ -103,13 +96,12 @@ body {
     }
 
     .navbar ul {
-        margin-left: 25%;
         gap: 10px;
     }
 
     .nav-title {
         display: flex;
-        margin: 10px;
+        margin: 0 10px;
         font-size: 18px;
         margin-left: -10%;
         text-decoration: none;
@@ -128,14 +120,12 @@ body {
     }
 
     .dropdown {
-        /* display: flex; */
         display: block;
         position: absolute;
         top: 15px;
-        right: 15px;
+        right: 3%;
         flex-direction: column;
         border: none;
-        /* background-color: #C41230; */
         font-size: 20px;
         justify-content: center;
     }
@@ -152,8 +142,6 @@ body {
     ul {
         display: none;
         font-size: 15px;
-        /* position: relative; */
-        /* margin-right: 10%; */
     }
 }
 
@@ -167,6 +155,6 @@ body {
 
     .nav-title {
         font-size: 27px;
-        margin-left: 1%;
+        margin-left: 0 1%;
     }
 }
