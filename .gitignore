@@ -1,1 +1,5 @@
 node_modules
+backend/pb_data/data.db-shm
+/backend/pb_data
+/backend/pb_data
+backend/pb_data/logs.db
